@@ -1,0 +1,343 @@
+reminder: false
+
+cache:
+  enable: true
+
+minify: false
+
+custom_file_path:
+  #head: source/_data/head.njk
+  #header: source/_data/header.njk
+  #sidebar: source/_data/sidebar.njk
+  #postMeta: source/_data/post-meta.njk
+  #postBodyEnd: source/_data/post-body-end.njk
+  #footer: source/_data/footer.njk
+  #bodyEnd: source/_data/body-end.njk
+  #variable: source/_data/variables.styl
+  #mixin: source/_data/mixins.styl
+  #style: source/_data/styles.styl
+
+favicon:
+  #small: /images/favicon-16x16-next.png
+  #medium: /images/favicon-32x32-next.png
+  #apple_touch_icon: /images/apple-touch-icon-next.png
+  #safari_pinned_tab: /images/logo.svg
+  #android_manifest: /images/manifest.json
+  #ms_browserconfig: /images/browserconfig.xml
+
+language_switcher: false
+
+footer:
+  since: 2005
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+  powered: false
+  beian:
+    enable: false
+    icp:
+    gongan_id:
+    gongan_num:
+    gongan_icon_url:
+
+creative_commons:
+  license: by-nc-nd
+  sidebar: true
+  post: false
+  language: deed.en
+
+scheme: Muse
+
+darkmode: false
+
+menu:
+  home: / || fa fa-home
+  categories: /categories || fa fa-th
+  archives: /archives || fa fa-archive
+  tags: /tags || fa fa-tags
+  about: /about || fa fa-user
+
+menu_settings:
+  icons: true
+  badges: true
+
+sidebar:
+  position: left
+  display: hide
+  padding: 18
+  offset: 12
+  onmobile: false
+
+avatar:
+  url: /images/logo.png
+  rounded: true
+  rotated: true
+
+site_state: true
+
+social:
+  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/layicr || fab fa-github
+  Weibo: https://weibo.com/layicr || fab fa-weibo
+  Lofter: http://ilayicr.lofter.com || fa fa-globe
+  Twitter: https://twitter.com/layicr || fab fa-twitter
+  Facebook: https://www.facebook.com/layicr || fab fa-facebook
+  Instagram: https://instagram.com/ilayicr || fab fa-instagram
+  VK: http://vk.com/layicr || fab fa-vk
+  YouTube: https://youtube.com/yourname || fab fa-youtube
+  Links: /links/ || fa fa-address-book
+  #AD: /ad/ || fa fa-thumbs-up
+  RSS: /atom.xml || fa fa-rss
+  #PUBLIC: /404.html || fa fa-heartbeat
+  #Movies: /movies || fab fa-youtube
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+links_settings:
+  icon: fa fa-link
+  title: Links
+  layout: block
+
+links:
+  #lyc: http://www.lyc.la
+
+chat:
+  enable: false
+  #service: chatra
+  #service: tidio
+  icon: fa fa-comment
+  text: Chat
+
+toc:
+  enable: true
+  number: true
+  wrap: false
+  expand_all: false
+  max_depth: 6
+
+excerpt_description: true
+
+read_more_btn: true
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: false
+    another_day: true
+  categories: true
+
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: false
+
+tag_icon: true
+
+reward_settings:
+  enable: true
+  animation: true
+  comment: 原创不易，感谢支持，您的打赏将鼓励我继续创作！
+
+reward:
+  wechatpay: /images/wechatpay.jpg
+  alipay: /images/alipay.jpg
+
+follow_me:
+  #Twitter: https://twitter.com/username || fab fa-twitter
+  #Telegram: https://t.me/channel_name || fab fa-telegram
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  #RSS: /atom.xml || fa fa-rss
+
+related_posts:
+  enable: false
+  title:
+  display_in_home: true
+  params:
+    maxCount: 5
+
+post_edit:
+  enable: false
+  url:
+
+post_navigation: left
+
+tagcloud:
+  min: 12
+  max: 30
+  amount: 20000
+  orderby: name
+  order: 1
+
+calendar:
+  calendar_id:
+  api_key:
+  orderBy: startTime
+  offsetMax: 24
+  offsetMin: 4
+  showDeleted: false
+  singleEvents: true
+  maxResults: 250
+
+text_align:
+  desktop: justify
+  mobile: justify
+
+mobile_layout_economy: false
+
+android_chrome_color: "#222"
+
+custom_logo:
+
+codeblock:
+  theme:
+    light: default
+    dark: tomorrow-night
+  prism:
+    light: prism
+    dark: prism-dark
+  copy_button:
+    enable: true
+    style: flat
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+bookmark:
+  enable: true
+  color: "#222"
+  save: auto
+
+github_banner:
+  enable: false
+  permalink: https://github.com/yourname
+  title: Follow me on GitHub
+
+font:
+  enable: true
+  host:
+  global:
+    external: true
+    family: Lato
+    size:
+  title:
+    external: true
+    family:
+    size:
+  headings:
+    external: true
+    family:
+    size:
+  posts:
+    external: true
+    family:
+  codes:
+    external: true
+    family:
+
+disable_baidu_transformation: false
+
+index_with_subtitle: false
+
+exturl: false
+
+google_site_verification:
+
+bing_site_verification:
+
+yandex_site_verification:
+
+baidu_site_verification:
+
+baidu_push: true
+
+math:
+  per_page: true
+  mathjax:
+    enable: true
+  katex:
+    enable: true
+    copy_tex: true
+
+pjax: false
+
+fancybox: true
+
+mediumzoom: false
+
+lazyload: true
+
+pangu: true
+
+quicklink:
+  enable: false
+  home: false
+  archive: false
+  delay: true
+  timeout: 3000
+  priority: true
+  ignores:
+
+comments:
+  style: tabs
+  active:
+  storage: true
+  lazyload: false
+  nav:
+
+disqus:
+  enable: false
+  shortname:
+  count: true
+
+disqusjs:
+  enable: false
+  api:
+  apikey:
+  shortname:
+
+changyan:
+  enable: false
+  appid:
+  appkey:
+
+valine:
+  enable: false
+  appId:
+  appKey:
+  placeholder: 来说两句吧. / Just go go.
+  avatar: mm
+  meta:
+    - nick
+    - mail
+    - link
+  pageSize: 10
+  language: 'zh-cn'
+  visitor: true
+  comment_count: true
+  recordIP: false
+  serverURLs:
+
+livere_uid:
+
+gitalk:
+  enable: false
+  github_id:
+  repo:
+  client_id:
+  client_secret:
+  admin_user:
+  distraction_free_mode: true
+  language:

@@ -1,0 +1,120 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: layicr
+subtitle: ''
+description: '「如果中了500W，第一件事情做什么？」<br/>『去南极。』<br/> 「接着呢？」<br/>『等活着回来在说。』<br/>「。。。」'
+keywords: 'layicr,slash,blog,lyc.la,b.lyc.la,斜杠青年'
+author: 'layicr'
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+url: http://b.lyc.la
+root: /
+permalink: :year/:month/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir:
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 2
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  preprocess: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# Home page setting
+index_generator:
+  path: ''
+  per_page: 5
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+meta_generator: true
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'date'
+
+# Pagination
+per_page: 5
+pagination_dir: page
+
+# Include / Exclude file(s)
+include:
+exclude:
+ignore:
+
+# Extensions
+theme: next
+
+# Deployment
+deploy:
+  type: ''
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+plugin:
+  - hexo-generator-feed
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 100
+  hub: http://b.lyc.la
+  order_by: -date
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+neat_js:
+  enable: false
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'

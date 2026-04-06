@@ -1,0 +1,65 @@
+#robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /sleuth/
+Allow: /message/
+Allow: /links/
+
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://www.layicr.com/search.xml
+Sitemap: http://www.layicr.com/sitemap.xml
+Sitemap: http://www.layicr.com/baidusitemap.xml
+
+
+Allow: /zh-TW/
+Allow: /zh-TW/archives/
+Allow: /zh-TW/categories/
+Allow: /zh-TW/tags/
+Allow: /zh-TW/sleuth/
+Allow: /zh-TW/message/
+Allow: /zh-TW/links/
+
+Disallow: /zh-TW/vendors/
+Disallow: /zh-TW/js/
+Disallow: /zh-TW/css/
+Disallow: /zh-TW/fonts/
+Disallow: /zh-TW/vendors/
+Disallow: /zh-TW/fancybox/
+
+Sitemap: http://www.layicr.com/zh-TW/search.xml
+Sitemap: http://www.layicr.com/zh-TW/sitemap.xml
+Sitemap: http://www.layicr.com/zh-TW/baidusitemap.xml
+
+
+Allow: /en/
+Allow: /en/archives/
+Allow: /en/categories/
+Allow: /en/tags/
+Allow: /en/sleuth/
+Allow: /en/message/
+Allow: /en/links/
+
+
+
+Disallow: /en/vendors/
+Disallow: /en/js/
+Disallow: /en/css/
+Disallow: /en/fonts/
+Disallow: /en/vendors/
+Disallow: /en/fancybox/
+
+
+
+Sitemap: http://www.layicr.com/en/search.xml
+Sitemap: http://www.layicr.com/en/sitemap.xml
+Sitemap: http://www.layicr.com/en/baidusitemap.xml
