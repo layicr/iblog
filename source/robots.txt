@@ -4,10 +4,9 @@ Allow: /
 Allow: /archives/
 Allow: /categories/
 Allow: /tags/
-Allow: /sleuth/
-Allow: /message/
 Allow: /links/
-
+Allow: /ad/
+Allow: /about/
 
 Disallow: /vendors/
 Disallow: /js/
@@ -19,23 +18,3 @@ Disallow: /fancybox/
 Sitemap: http://b.lyc.la/search.xml
 Sitemap: http://b.lyc.la/sitemap.xml
 Sitemap: http://b.lyc.la/baidusitemap.xml
-
-
-Allow: /zh-TW/
-Allow: /zh-TW/archives/
-Allow: /zh-TW/categories/
-Allow: /zh-TW/tags/
-Allow: /zh-TW/sleuth/
-Allow: /zh-TW/message/
-Allow: /zh-TW/links/
-
-Disallow: /zh-TW/vendors/
-Disallow: /zh-TW/js/
-Disallow: /zh-TW/css/
-Disallow: /zh-TW/fonts/
-Disallow: /zh-TW/vendors/
-Disallow: /zh-TW/fancybox/
-
-Sitemap: http://b.lyc.la/zh-TW/search.xml
-Sitemap: http://b.lyc.la/zh-TW/sitemap.xml
-Sitemap: http://b.lyc.la/zh-TW/baidusitemap.xml

@@ -15,10 +15,10 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
-favicon:
-  #small: /images/favicon-16x16-next.png
+favicon: /favicon.ico
+  #small: 
   #medium: /images/favicon-32x32-next.png
   #apple_touch_icon: /images/apple-touch-icon-next.png
   #safari_pinned_tab: /images/logo.svg
@@ -78,15 +78,24 @@ site_state: true
 
 social:
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  GitHub: https://github.com/layicr || fab fa-github
-  Weibo: https://weibo.com/layicr || fab fa-weibo
+  #主页
+  Home: http://www.lyc.la || fa fa-globe
+  #个人品牌
+  Hi: http://hi.lyc.la || fa fa-home
+  #演唱会足迹
+  ilive: http://ilive.lyc.la || fa fa-music
+  GitHub: http://github.com/layicr || fab fa-github
+  Weibo: http://weibo.com/layicr || fab fa-weibo
+  Weixin: https://mp.weixin.qq.com/s/S1sq45LC_iQuCLYxzoaRkw || fab fa-weixin
+  Douyin: http://v.douyin.com/5nAiAZQoUXw/ || fab fa-tiktok
   Lofter: http://ilayicr.lofter.com || fa fa-globe
-  Twitter: https://twitter.com/layicr || fab fa-twitter
-  Facebook: https://www.facebook.com/layicr || fab fa-facebook
-  Instagram: https://instagram.com/ilayicr || fab fa-instagram
+  Twitter: http://twitter.com/layicr || fab fa-twitter
+  Facebook: http://www.facebook.com/layicr || fab fa-facebook
+  Instagram: http://instagram.com/ilayicr || fab fa-instagram
+  YouTube: http://youtube.com/@lyc9530 || fab fa-youtube
   VK: http://vk.com/layicr || fab fa-vk
-  YouTube: https://youtube.com/yourname || fab fa-youtube
   Links: /links/ || fa fa-address-book
+  AD: /ad/ || fa fa-thumbs-up
   #AD: /ad/ || fa fa-thumbs-up
   RSS: /atom.xml || fa fa-rss
   #PUBLIC: /404.html || fa fa-heartbeat
@@ -141,7 +150,7 @@ tag_icon: true
 reward_settings:
   enable: true
   animation: true
-  comment: 原创不易，感谢支持，您的打赏将鼓励我继续创作！
+  #comment: 原创不易，感谢支持，您的打赏将鼓励我继续创作！
 
 reward:
   wechatpay: /images/wechatpay.jpg
@@ -253,13 +262,13 @@ index_with_subtitle: false
 
 exturl: false
 
-google_site_verification:
+google_site_verification: G-MTW81YQX69
 
 bing_site_verification:
 
 yandex_site_verification:
 
-baidu_site_verification:
+baidu_site_verification: aa8fd8b751f1a86980bb64090107cd1e
 
 baidu_push: true
 
