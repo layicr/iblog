@@ -55,7 +55,12 @@ menu:
   home: / || fa fa-home
   categories: /categories || fa fa-th
   archives: /archives || fa fa-archive
-  tags: /tags || fa fa-tags
+  #tags: /tags || fa fa-tags
+  #Hi: http://hi.lyc.la || fa fa-home
+  Hi-lyc: http://hi.lyc.la || fa fa-heartbeat
+  ilive: http://ilive.lyc.la || fa fa-music
+  #旅行
+  travel: /yearcity/ || fa fa-globe
   about: /about || fa fa-user
 
 menu_settings:
@@ -81,9 +86,10 @@ social:
   #主页
   Home: http://www.lyc.la || fa fa-globe
   #个人品牌
-  Hi: http://hi.lyc.la || fa fa-home
+  Hi-lyc: http://hi.lyc.la || fa fa-heartbeat
   #演唱会足迹
   ilive: http://ilive.lyc.la || fa fa-music
+  Travel: /yearcity/ || fa fa-globe
   GitHub: http://github.com/layicr || fab fa-github
   Weibo: http://weibo.com/layicr || fab fa-weibo
   Weixin: https://mp.weixin.qq.com/s/S1sq45LC_iQuCLYxzoaRkw || fab fa-weixin
