@@ -1,6 +1,6 @@
 # layicr 博客
 
-
+[English](README_en.md) | 简体中文
 
 网址：[http://b.lyc.la](http://b.lyc.la)
 
@@ -12,7 +12,7 @@
 |------|------|
 | Hexo | 8.1.1 |
 | NexT | 8.27.0 |
-| Node.js | 18+ (推荐 20.x 或 22.x LTS) |
+| Node.js | 18+ |
 
 ## 功能特性
 
@@ -24,11 +24,15 @@
 - 🎨 自定义样式 - 通过 `source/_data/styles.styl` 自定义
 - 💰 打赏功能 - 微信/支付宝二维码
 - 📱 响应式设计 - 适配移动端
+- 📊 数据可视化 - 支持流程图、时序图、Mermaid 图表
+- 📅 日历功能 - 文章发布日历
+- 📄 PDF 预览 - 支持 PDF 文件嵌入
+- 📈 字数统计 - 文章字数和阅读时间统计
 
 ## 目录结构
 
 ```
-blog_www/
+iblog/
 ├── _config.yml          # Hexo 主配置
 ├── _config.next.yml     # NexT 主题配置
 ├── package.json         # 依赖管理
@@ -38,6 +42,7 @@ blog_www/
 │   ├── about/           # 关于页面
 │   ├── links/           # 友链页面
 │   ├── ad/              # 广告页面
+│   ├── yearcity/        # 行者页面
 │   ├── images/          # 图片资源
 │   └── _data/           # 自定义数据
 │       └── styles.styl  # 自定义样式
@@ -99,3 +104,15 @@ hexo deploy
 | hexo-generator-searchdb | 本地搜索 |
 | hexo-symbols-count-time | 字数统计 |
 | hexo-neat | 代码压缩 |
+| hexo-filter-flowchart | 流程图支持 |
+| hexo-filter-sequence | 时序图支持 |
+| hexo-filter-mermaid-diagrams | Mermaid 图表支持 |
+| hexo-generator-calendar | 文章日历 |
+| hexo-pdf | PDF 预览 |
+| hexo-word-counter | 字数统计 |
+| hexo-generator-topindex | 置顶文章 |
+| gulp | 构建工具 |
+| gulp-clean-css | CSS 压缩 |
+| gulp-htmlclean | HTML 清理 |
+| gulp-htmlmin | HTML 压缩 |
+| gulp-uglify | JS 压缩 |
