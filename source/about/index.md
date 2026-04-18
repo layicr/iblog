@@ -31,36 +31,17 @@ comments: false
     </div>
   </div>
 
-  <div class="about-divider"></div>
-
-  <div class="about-section">
-    <h2 class="section-title"></h2>
-    <div class="about-content">
-      <div class="info-item">
-        <span class="info-label">Nickname</span>
-        <span class="info-value">layicr</span>
-      </div>
-      <div class="info-item">
-        <span class="info-label">Tags</span>
-        <span class="info-value">I'm a slash</span>
-      </div>
-      <div class="info-item">
-        <span class="info-label">Status</span>
-        <span class="info-value">In this era, this city, many goodbyes become forever.</span>
-      </div>
-      <div class="info-quote">
-        <p>「What is the first thing to do when you win 5 million?」</p>
-        <p>『Travelling to the south pole.』</p>
-        <p>「What's next?」</p>
-        <p>『Let's talk about this when you come back alive.』</p>
-        <p>「...」</p>
-      </div>
-    </div>
-  </div>
-
   <div class="about-copyright">
     <img src="/images/b_cc.png">
     <p>The <a href="/" target="_blank">Layicr</a> is licensed under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">BY-NC-ND</a> International License.</p>
+  </div>
+
+  <div class="language-switch-link">
+    <a href="/about_en/">
+      <span style="font-size: 14px;">🌐</span>
+      <span>English</span>
+      <span style="font-size: 10px;">→</span>
+    </a>
   </div>
 </div>
 
@@ -122,12 +103,6 @@ comments: false
   color: #666;
   font-size: 1.3rem;
   line-height: 1.8;
-}
-
-.about-divider {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, #ddd, transparent);
-  margin: 40px 0;
 }
 
 .about-copyright {

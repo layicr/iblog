@@ -30,6 +30,14 @@ lang: zh-CN
       </a>
     </div>
   </div>
+
+  <div class="language-switch-link">
+    <a href="/ad_en/">
+      <span style="font-size: 14px;">🌐</span>
+      <span>English</span>
+      <span style="font-size: 10px;">→</span>
+    </a>
+  </div>
 </div>
 
 <script>

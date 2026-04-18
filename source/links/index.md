@@ -8,12 +8,17 @@ lang: zh-CN
 <div class="links-container">
   <div class="links-intro">
     <p>"山水一程，三生有幸"</p>
-    <p class="links-subtitle"></p>
-    <p class="links-en">"A journey together, a lifetime of fortune"</p>
-    <p class="links-subtitle-en"></p>
   </div>
   
   <div class="links-list" id="links-list"></div>
+
+  <div class="language-switch-link">
+    <a href="/links_en/">
+      <span style="font-size: 14px;">🌐</span>
+      <span>English</span>
+      <span style="font-size: 10px;">→</span>
+    </a>
+  </div>
 </div>
 
 <script>
@@ -75,26 +80,6 @@ var linksData = [
   font-weight: 600;
   letter-spacing: 2px;
   color: #333;
-}
-
-.links-intro .links-subtitle {
-  margin-top: 10px;
-  font-size: 1.2rem;
-  color: #888;
-}
-
-.links-intro .links-en {
-  margin-top: 20px;
-  font-size: 1.4rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: #666;
-}
-
-.links-intro .links-subtitle-en {
-  margin-top: 8px;
-  font-size: 1rem;
-  color: #888;
 }
 
 .links-list {

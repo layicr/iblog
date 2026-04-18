@@ -40,9 +40,16 @@ iblog/
 ├── source/              # 源文件
 │   ├── _posts/          # 文章目录
 │   ├── about/           # 关于页面
+│   ├── about_en/        # 关于页面（英文）
 │   ├── links/           # 友链页面
+│   ├── links_en/        # 友链页面（英文）
 │   ├── ad/              # 广告页面
+│   ├── ad_en/           # 广告页面（英文）
 │   ├── yearcity/        # 行者页面
+│   ├── yearcity_en/     # 行者页面（英文）
+│   ├── categories/      # 分类页面
+│   ├── tags/            # 标签页面
+│   ├── 404/             # 404 页面
 │   ├── images/          # 图片资源
 │   └── _data/           # 自定义数据
 │       └── styles.styl  # 自定义样式

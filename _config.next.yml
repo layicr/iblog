@@ -56,7 +56,6 @@ menu:
   categories: /categories || fa fa-th
   archives: /archives || fa fa-archive
   #tags: /tags || fa fa-tags
-  #Hi: http://hi.lyc.la || fa fa-home
   Hi-lyc: http://hi.lyc.la || fa fa-heartbeat
   ilive: http://ilive.lyc.la || fa fa-music
   #旅行

@@ -720,3 +720,11 @@ lang: zh-CN
   }
 })();
 </script>
+
+<div class="language-switch-link">
+  <a href="/yearcity_en/">
+    <span style="font-size: 14px;">🌐</span>
+    <span>English</span>
+    <span style="font-size: 10px;">→</span>
+  </a>
+</div>

@@ -40,9 +40,16 @@ iblog/
 ├── source/              # Source files
 │   ├── _posts/          # Article directory
 │   ├── about/           # About page
+│   ├── about_en/        # About page (English)
 │   ├── links/           # Links page
+│   ├── links_en/        # Links page (English)
 │   ├── ad/              # Advertising page
+│   ├── ad_en/           # Advertising page (English)
 │   ├── yearcity/        # Traveler page
+│   ├── yearcity_en/     # Traveler page (English)
+│   ├── categories/      # Categories page
+│   ├── tags/            # Tags page
+│   ├── 404/             # 404 page
 │   ├── images/          # Image resources
 │   └── _data/           # Custom data
 │       └── styles.styl  # Custom CSS styles
