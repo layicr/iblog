@@ -334,6 +334,7 @@ lang: zh-CN
     {
         year: '2026',
         details: [
+          { location: 'Guangxi . Nanning . Jay Chou Concert', flag: 'cn', date: '04.01' },
           { location: 'Guangdong . Qingyuan', flag: 'cn', date: '01.01' },
           { location: 'Guangdong . Qingyuan . Ronghao Li Concert', flag: 'cn', date: '01.01' },
           { location: 'Jiangxi . Nanchang', flag: 'cn', date: '01.01' },

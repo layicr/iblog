@@ -334,6 +334,7 @@ lang: zh-CN
     {
         year: '2026',
         details: [
+          { location: '广西 . 南宁 . 周杰伦演唱会', flag: 'cn', date: '04.01' },
           { location: '广东 . 清远', flag: 'cn', date: '01.01' },
           { location: '广东 . 清远 . 李荣浩演唱会', flag: 'cn', date: '01.01' },
           { location: '江西 . 南昌', flag: 'cn', date: '01.01' },
