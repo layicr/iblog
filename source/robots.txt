@@ -5,9 +5,13 @@ Allow: /archives/
 Allow: /categories/
 Allow: /tags/
 Allow: /links/
+Allow: /links_en/
 Allow: /ad/
+Allow: /ad_en/
 Allow: /about/
+Allow: /about_en/
 Allow: /yearcity/
+Allow: /yearcity_en/
 
 Disallow: /vendors/
 Disallow: /js/
