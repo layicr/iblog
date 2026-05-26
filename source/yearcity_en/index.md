@@ -334,6 +334,7 @@ lang: zh-CN
     {
         year: '2026',
         details: [
+          { location: 'Guangxi . Nanning . Li Ronghao Concert', flag: 'cn', date: '05.01' },
           { location: 'Guangxi . Nanning . Jolin Cai Concert', flag: 'cn', date: '05.01' },
           { location: 'Guangxi . Nanning . Jay Chou Concert', flag: 'cn', date: '04.01' },
           { location: 'Guangdong . Qingyuan', flag: 'cn', date: '01.01' },
@@ -586,7 +587,7 @@ lang: zh-CN
       var d = item.details[i];
       html += '<div class="race-row">';
       html += '<span class="round">' + padZero(i + 1) + '</span>';
-      html += '<span class="location">' + d.location + '<img src="https://flagcdn.com/w80/' + d.flag + '.png" alt="" loading="lazy"></span>';
+      html += '<span class="location">' + d.location + '<img src="/images/flag/' + d.flag + '.png" alt=""></span>';
       html += '<span class="date">' + d.date + '</span>';
       html += '</div>';
     }
