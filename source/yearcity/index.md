@@ -217,43 +217,6 @@ lang: zh-CN
   color: #8b7d7c;
 }
 
-.show-more-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 12px 24px;
-  margin: 30px auto;
-  font-size: 15px;
-  font-weight: 600;
-  color: #4851ad;
-  background: linear-gradient(135deg, rgba(72, 81, 173, 0.08) 0%, rgba(99, 126, 197, 0.08) 100%);
-  border: 2px solid rgba(72, 81, 173, 0.3);
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.show-more-btn::before {
-  content: '▼';
-  font-size: 12px;
-  transition: transform 0.3s ease;
-}
-
-.show-more-btn:hover {
-  background: linear-gradient(135deg, #4851ad 0%, #637ec5 100%);
-  color: #fff;
-  border-color: transparent;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(72, 81, 173, 0.35);
-}
-
-.show-more-btn:hover::before {
-  transform: translateY(3px);
-}
-
 /* 响应式 */
 @media (max-width: 768px) {
   .section-spacing {
@@ -643,10 +606,6 @@ lang: zh-CN
     setTimeout(showNextLine, 500);
   }
 
-  var showMore = false;
-  var yearsFirstHalf = yearCityData.slice(0, 3);
-  var yearsSecondHalf = yearCityData.slice(3);
-
   function render() {
     renderSectionText();
     animateSectionText();
@@ -658,18 +617,8 @@ lang: zh-CN
     if (!container) return;
     
     var html = '';
-    for (var i = 0; i < yearsFirstHalf.length; i++) {
-      html += renderYearItem(yearsFirstHalf[i]);
-    }
-    
-    if (!showMore && yearsSecondHalf.length > 0) {
-      html += '<div class="show-more-btn" id="show-more-btn">更多</div>';
-    }
-    
-    if (showMore) {
-      for (var j = 0; j < yearsSecondHalf.length; j++) {
-        html += renderYearItem(yearsSecondHalf[j]);
-      }
+    for (var i = 0; i < yearCityData.length; i++) {
+      html += renderYearItem(yearCityData[i]);
     }
     
     container.innerHTML = html;
@@ -694,14 +643,6 @@ lang: zh-CN
     if (!yearsList) return;
     
     yearsList.addEventListener('click', function(e) {
-      var showMoreBtn = e.target.closest('#show-more-btn');
-      if (showMoreBtn) {
-        e.stopPropagation();
-        showMore = true;
-        renderYearCityList();
-        return;
-      }
-      
       var row = e.target.closest('.year-row');
       if (row) {
         var isActive = row.classList.contains('active');
