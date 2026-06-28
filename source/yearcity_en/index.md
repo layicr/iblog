@@ -297,6 +297,10 @@ lang: zh-CN
       {
         year: '2026',
         details: [
+          { location: 'Guangdong . Dongguan', flag: 'cn', date: '06.01' },
+          { location: 'Guangdong . Dongguan . Justin Lo Concert', flag: 'cn', date: '06.01' },
+          { location: 'Guangdong . Dongguan . Humen Town', flag: 'cn', date: '06.01' },
+          { location: 'Guangdong . Dongguan . Humen Station', flag: 'cn', date: '06.01' },
           { location: 'Guangxi . Nanning . Li Ronghao Concert', flag: 'cn', date: '05.01' },
           { location: 'Guangxi . Nanning . Jolin Cai Concert', flag: 'cn', date: '05.01' },
           { location: 'Guangxi . Nanning . Jay Chou Concert', flag: 'cn', date: '04.01' },

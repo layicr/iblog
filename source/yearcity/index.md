@@ -297,6 +297,10 @@ lang: zh-CN
     {
         year: '2026',
         details: [
+          { location: '广东 . 东莞', flag: 'cn', date: '06.01' },
+          { location: '广东 . 东莞 . 侧田演唱会', flag: 'cn', date: '06.01' },
+          { location: '广东 . 东莞 . 虎门镇‌', flag: 'cn', date: '06.01' },
+          { location: '广东 . 东莞 . 虎门站', flag: 'cn', date: '06.01' },
           { location: '广西 . 南宁 . 李荣浩演唱会', flag: 'cn', date: '05.01' },
           { location: '广西 . 南宁 . 蔡依林演唱会', flag: 'cn', date: '05.01' },
           { location: '广西 . 南宁 . 周杰伦演唱会', flag: 'cn', date: '04.01' },
