@@ -297,6 +297,7 @@ lang: zh-CN
       {
         year: '2026',
         details: [
+          { location: 'Guangdong . Shenzhen . Power Station Concert', flag: 'cn', date: '07.01' },
           { location: 'Guangdong . Dongguan', flag: 'cn', date: '06.01' },
           { location: 'Guangdong . Dongguan . Justin Lo Concert', flag: 'cn', date: '06.01' },
           { location: 'Guangdong . Dongguan . Humen Town', flag: 'cn', date: '06.01' },

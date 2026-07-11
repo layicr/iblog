@@ -297,6 +297,7 @@ lang: zh-CN
     {
         year: '2026',
         details: [
+          { location: '广东 . 深圳 . 动力火车演唱会', flag: 'cn', date: '07.01' },
           { location: '广东 . 东莞', flag: 'cn', date: '06.01' },
           { location: '广东 . 东莞 . 侧田演唱会', flag: 'cn', date: '06.01' },
           { location: '广东 . 东莞 . 虎门镇‌', flag: 'cn', date: '06.01' },
