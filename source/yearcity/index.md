@@ -323,7 +323,6 @@ lang: zh-CN
           { location: '广西 . 柳州', flag: 'cn', date: '06.01' },
           { location: '广西 . 柳江', flag: 'cn', date: '06.01' },
           { location: '广西 . 柳州 . 柳州站', flag: 'cn', date: '06.01' },
-          { location: '广西 . 柳州 . 柳州汽车总站', flag: 'cn', date: '06.01' },
           { location: '广东 . 深圳', flag: 'cn', date: '05.01' },
           { location: '广东 . 深圳 . 孙燕姿演唱会', flag: 'cn', date: '05.01' },
           { location: '广东 . 深圳 . 深圳站', flag: 'cn', date: '05.01' },
@@ -363,10 +362,7 @@ lang: zh-CN
           { location: '福建 . 福州', flag: 'cn', date: '12.01' },
           { location: '福建 . 福州长乐国际机场', flag: 'cn', date: '12.01' },
           { location: '福建 . 福州 . 福州站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 福州 . 福州南站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 福州 . 福州汽车北站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 福州 . 福州汽车南站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 福州 . 客运西站', flag: 'cn', date: '12.01' }
+          { location: '福建 . 福州 . 福州南站', flag: 'cn', date: '12.01' }
         ]
       },
       {
@@ -375,8 +371,7 @@ lang: zh-CN
           { location: '浙江 . 宁波', flag: 'cn', date: '12.01' },
           { location: '浙江 . 宁波 . 宁波站', flag: 'cn', date: '12.01' },
           { location: '福建 . 晋江', flag: 'cn', date: '12.01' },
-          { location: '福建 . 晋江 . 晋江站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 晋江 . 晋江汽车站', flag: 'cn', date: '12.01' }
+          { location: '福建 . 晋江 . 晋江站', flag: 'cn', date: '12.01' }
         ]
       },
       {
@@ -400,7 +395,6 @@ lang: zh-CN
            { location: '山西 . 太原武宿国际机场', flag: 'cn', date: '12.01' },
            { location: '山西 . 太原 . 太原站', flag: 'cn', date: '12.01' },
            { location: '山西 . 太原 . 太原南站', flag: 'cn', date: '12.01' },
-           { location: '山西 . 太原 . 太原汽车站', flag: 'cn', date: '12.01' },
            { location: '安徽 . 合肥', flag: 'cn', date: '01.01' },
            { location: '安徽 . 合肥新桥国际机场', flag: 'cn', date: '01.01' },
            { location: '安徽 . 合肥 . 合肥站', flag: 'cn', date: '01.01' },
@@ -413,15 +407,15 @@ lang: zh-CN
           { location: '台湾 . 台北', flag: 'cn', date: '09.01' },
           { location: '台湾 . 新北', flag: 'cn', date: '09.01' },
           { location: '台湾 . 桃园', flag: 'cn', date: '09.01' },
-          { location: '台湾 . 桃园 . 桃园客运总站', flag: 'cn', date: '09.01' },
+
           { location: '台湾 . 台中', flag: 'cn', date: '09.01' },
           { location: '台湾 . 台中 . 高铁台中站', flag: 'cn', date: '09.01' },
-          { location: '台湾 . 台中 . 台中客运总站', flag: 'cn', date: '09.01' },
+
           { location: '台湾 . 台南', flag: 'cn', date: '09.01' },
           { location: '台湾 . 台南 . 高铁台南站', flag: 'cn', date: '09.01' },
           { location: '台湾 . 高雄', flag: 'cn', date: '09.01' },
           { location: '台湾 . 高雄 . 高雄车站', flag: 'cn', date: '09.01' },
-          { location: '台湾 . 高雄 . 高雄客运总站', flag: 'cn', date: '09.01' },
+
           { location: '台湾 . 屏东', flag: 'cn', date: '09.01' },
           { location: '台湾 . 屏东 . 屏东车站', flag: 'cn', date: '09.01' },
           { location: '台湾 . 垦丁', flag: 'cn', date: '09.01' },
@@ -430,10 +424,10 @@ lang: zh-CN
           { location: '台湾 . 台东 . 台东车站', flag: 'cn', date: '09.01' },
           { location: '台湾 . 花莲', flag: 'cn', date: '09.01' },
           { location: '台湾 . 花莲 . 花莲车站', flag: 'cn', date: '09.01' },
-          { location: '台湾 . 花莲 . 花莲客运总站', flag: 'cn', date: '09.01' },
+
           { location: '台湾 . 台北桃园国际机场', flag: 'cn', date: '09.01' },
           { location: '台湾 . 台北 . 台北车站', flag: 'cn', date: '09.01' },
-          { location: '台湾 . 台北 . 台北转运站', flag: 'cn', date: '09.01' },
+
           { location: '内蒙古 . 呼和浩特', flag: 'cn', date: '08.01' },
           { location: '内蒙古 . 呼和浩特 . 呼和浩特站', flag: 'cn', date: '08.01' },
           { location: '宁夏 . 银川', flag: 'cn', date: '08.01' },
@@ -467,8 +461,6 @@ lang: zh-CN
           { location: '福建 . 泉州晋江机场', flag: 'cn', date: '12.01' },
           { location: '福建 . 泉州 . 泉州站', flag: 'cn', date: '12.01' },
           { location: '福建 . 泉州 . 泉州东站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 泉州 . 泉州客运中心站', flag: 'cn', date: '12.01' },
-          { location: '福建 . 泉州 . 泉州汽车站', flag: 'cn', date: '12.01' },
           { location: '青海 . 西宁', flag: 'cn', date: '07.01' },
           { location: '青海 . 茶卡盐湖', flag: 'cn', date: '07.01' },
           { location: '青海 . 青海湖', flag: 'cn', date: '07.01' },
@@ -497,12 +489,10 @@ lang: zh-CN
           { location: '浙江 . 西塘', flag: 'cn', date: '07.01' },
           { location: '浙江 . 嘉兴 . 嘉兴站', flag: 'cn', date: '07.01' },
           { location: '浙江 . 嘉兴 . 嘉兴南站', flag: 'cn', date: '07.01' },
-          { location: '浙江 . 嘉兴 . 嘉兴客运中心', flag: 'cn', date: '07.01' },
+
           { location: '浙江 . 西塘 . 嘉善站', flag: 'cn', date: '07.01' },
           { location: '浙江 . 西塘 . 嘉善南站', flag: 'cn', date: '07.01' },
-          { location: '浙江 . 西塘 . 西塘汽车站', flag: 'cn', date: '07.01' },
           { location: '澳门', flag: 'mo', date: '06.01' },
-          { location: '澳门 . 关闸总站', flag: 'mo', date: '06.01' },
           { location: '湖南 . 长沙', flag: 'cn', date: '03.01' },
           { location: '湖南 . 张家界', flag: 'cn', date: '03.01' },
           { location: '湖南 . 凤凰古城', flag: 'cn', date: '03.01' },
@@ -516,18 +506,14 @@ lang: zh-CN
           { location: '四川 . 成都双流国际机场', flag: 'cn', date: '10.01' }, 
           { location: '四川 . 成都 . 成都站', flag: 'cn', date: '10.01' },
           { location: '四川 . 成都 . 成都东站', flag: 'cn', date: '10.01' },
-          { location: '四川 . 成都 . 茶店子客运站', flag: 'cn', date: '10.01' },
           { location: '河南 . 登封', flag: 'cn', date: '10.01' },
           { location: '河南 . 少林寺', flag: 'cn', date: '10.01' },
           { location: '河南 . 登封 . 郑州站', flag: 'cn', date: '10.01' },
           { location: '河南 . 登封 . 郑州东站', flag: 'cn', date: '10.01' },
-          { location: '河南 . 登封 . 登封汽车站', flag: 'cn', date: '10.01' },
           { location: '河南 . 洛阳', flag: 'cn', date: '10.01' },
           { location: '河南 . 洛阳 . 洛阳站', flag: 'cn', date: '10.01' },
-          { location: '河南 . 洛阳 . 洛阳汽车站', flag: 'cn', date: '10.01' },
           { location: '四川 . 绵阳', flag: 'cn', date: '10.01' },
           { location: '四川 . 绵阳 . 绵阳站', flag: 'cn', date: '10.01' },
-          { location: '四川 . 绵阳 . 绵阳汽车站', flag: 'cn', date: '10.01' },
           { location: '四川 . 江油', flag: 'cn', date: '10.01' },
           { location: '四川 . 江油 . 江油站', flag: 'cn', date: '10.01' },
           { location: '四川 . 江油 . 江油北站', flag: 'cn', date: '10.01' },
@@ -557,7 +543,6 @@ lang: zh-CN
           { location: '江苏 . 昆山', flag: 'cn', date: '01.01' },
           { location: '江苏 . 昆山 . 昆山站', flag: 'cn', date: '01.01' },
           { location: '江苏 . 昆山 . 昆山南站', flag: 'cn', date: '01.01' },
-          { location: '江苏 . 昆山 . 昆山汽车客运站', flag: 'cn', date: '01.01' },
           { location: '江苏 . 同里', flag: 'cn', date: '01.01' },
           { location: '江苏 . 周庄', flag: 'cn', date: '01.01' },
           { location: '江苏 . 甪直', flag: 'cn', date: '01.01' },
@@ -573,8 +558,6 @@ lang: zh-CN
           { location: '河南 . 许昌', flag: 'cn', date: '10.01' },
           { location: '河南 . 许昌 . 许昌站', flag: 'cn', date: '10.01' },
           { location: '河南 . 许昌 . 许昌东站', flag: 'cn', date: '10.01' },
-          { location: '河南 . 许昌 . 许昌汽车站', flag: 'cn', date: '10.01' },
-          { location: '河南 . 许昌 . 许昌客运东站', flag: 'cn', date: '10.01' },
           { location: '山西 . 忻州', flag: 'cn', date: '09.01' },
           { location: '山西 . 五台山', flag: 'cn', date: '09.01' },
           { location: '山西 . 大同', flag: 'cn', date: '09.01' },
@@ -585,8 +568,6 @@ lang: zh-CN
           { location: '福建 . 厦门高崎国际机场', flag: 'cn', date: '08.01' },
           { location: '福建 . 厦门 . 厦门站', flag: 'cn', date: '08.01' },
           { location: '福建 . 厦门 . 厦门北站', flag: 'cn', date: '08.01' },
-          { location: '福建 . 厦门 . 厦门梧村汽车站', flag: 'cn', date: '08.01' },
-          { location: '福建 . 厦门 . 厦门枋湖客运中心', flag: 'cn', date: '08.01' },
           { location: '河北 . 唐山', flag: 'cn', date: '08.01' },
           { location: '河北 . 唐山 . 唐山站', flag: 'cn', date: '08.01' },
           { location: '河北 . 唐山 . 唐山北站', flag: 'cn', date: '08.01' },
@@ -597,8 +578,7 @@ lang: zh-CN
           { location: '辽宁 . 沈阳 . 沈阳站', flag: 'cn', date: '04.01' },
           { location: '辽宁 . 沈阳 . 沈阳北站', flag: 'cn', date: '04.01' },
           { location: '辽宁 . 本溪', flag: 'cn', date: '04.01' },
-          { location: '辽宁 . 本溪 . 本溪站', flag: 'cn', date: '04.01' },
-          { location: '辽宁 . 本溪 . 本溪长途汽车站', flag: 'cn', date: '04.01' }
+          { location: '辽宁 . 本溪 . 本溪站', flag: 'cn', date: '04.01' }
         ]
       },
       {
@@ -619,14 +599,10 @@ lang: zh-CN
           { location: '上海 . 上海站', flag: 'cn', date: '06.01' },
           { location: '上海 . 上海虹桥站', flag: 'cn', date: '06.01' },
           { location: '上海 . 上海南站', flag: 'cn', date: '06.01' },
-          { location: '上海 . 上海长途汽车客运总站', flag: 'cn', date: '06.01' },
-          { location: '上海 . 上海长途客运南站', flag: 'cn', date: '06.01' },
           { location: '广东 . 珠海', flag: 'cn', date: '01.01' },
           { location: '广东 . 珠海三灶国际机场', flag: 'cn', date: '01.01' },
           { location: '广东 . 珠海 . 珠海站', flag: 'cn', date: '01.01' },
           { location: '广东 . 珠海 . 珠海北站', flag: 'cn', date: '01.01' },
-          { location: '广东 . 珠海 . 珠海长途汽车站', flag: 'cn', date: '01.01' },
-          { location: '广东 . 珠海 . 珠海拱北汽车站', flag: 'cn', date: '01.01' },
           { location: '广西 . 桂林', flag: 'cn', date: '01.01' },
           { location: '广西 . 桂林两江国际机场', flag: 'cn', date: '01.01' },
           { location: '广西 . 桂林 . 桂林站', flag: 'cn', date: '01.01' }
@@ -650,7 +626,6 @@ lang: zh-CN
           { location: '江苏 . 南京', flag: 'cn', date: '05.01' },
           { location: '江苏 . 南京 . 南京站', flag: 'cn', date: '05.01' },
           { location: '江苏 . 南京 . 南京南站', flag: 'cn', date: '05.01' },
-          { location: '江苏 . 南京 . 南京汽车客运站', flag: 'cn', date: '05.01' },
           { location: '河北 . 保定', flag: 'cn', date: '04.01' },
           { location: '山东 . 滨州', flag: 'cn', date: '03.01' },
           { location: '山东 . 滨州 . 滨州站', flag: 'cn', date: '03.01' },
@@ -665,9 +640,7 @@ lang: zh-CN
           { location: '北京 . 故宫', flag: 'cn', date: '12.01' },
           { location: '北京 . 北京站', flag: 'cn', date: '12.01' },
           { location: '北京 . 北京南站', flag: 'cn', date: '12.01' },
-          { location: '北京 . 北京西站', flag: 'cn', date: '12.01' },
-          { location: '北京 . 永定门长途汽车站', flag: 'cn', date: '12.01' },
-          { location: '北京 . 四惠长途汽车站', flag: 'cn', date: '12.01' }
+          { location: '北京 . 北京西站', flag: 'cn', date: '12.01' }
         ]
       }
   ];

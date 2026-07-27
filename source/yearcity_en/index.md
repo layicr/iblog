@@ -413,15 +413,15 @@ lang: zh-CN
           { location: 'Taiwan . Taipei', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . New Taipei', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Taoyuan', flag: 'cn', date: '09.01' },
-          { location: 'Taiwan . Taoyuan . Taoyuan Bus Terminal', flag: 'cn', date: '09.01' },
+
           { location: 'Taiwan . Taichung', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Taichung . High Speed Rail Taichung Station', flag: 'cn', date: '09.01' },
-          { location: 'Taiwan . Taichung . Taichung Bus Terminal', flag: 'cn', date: '09.01' },
+
           { location: 'Taiwan . Tainan', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Tainan . High Speed Rail Tainan Station', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Kaohsiung', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Kaohsiung . Kaohsiung Station', flag: 'cn', date: '09.01' },
-          { location: 'Taiwan . Kaohsiung . Kaohsiung Bus Terminal', flag: 'cn', date: '09.01' },
+
           { location: 'Taiwan . Pingtung', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Pingtung . Pingtung Station', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Kenting', flag: 'cn', date: '09.01' },
@@ -430,10 +430,10 @@ lang: zh-CN
           { location: 'Taiwan . Taitung . Taitung Station', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Hualien', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Hualien . Hualien Station', flag: 'cn', date: '09.01' },
-          { location: 'Taiwan . Hualien . Hualien Bus Terminal', flag: 'cn', date: '09.01' },
+
           { location: 'Taiwan . Taipei Taoyuan International Airport', flag: 'cn', date: '09.01' },
           { location: 'Taiwan . Taipei . Taipei Main Station', flag: 'cn', date: '09.01' },
-          { location: 'Taiwan . Taipei . Taipei Bus Terminal', flag: 'cn', date: '09.01' },
+
           { location: 'Inner Mongolia . Hohhot', flag: 'cn', date: '08.01' },
           { location: 'Inner Mongolia . Hohhot . Hohhot Station', flag: 'cn', date: '08.01' },
           { location: 'Ningxia . Yinchuan', flag: 'cn', date: '08.01' },
@@ -497,7 +497,7 @@ lang: zh-CN
           { location: 'Zhejiang . Xitang', flag: 'cn', date: '07.01' },
           { location: 'Zhejiang . Jiaxing . Jiaxing Station', flag: 'cn', date: '07.01' },
           { location: 'Zhejiang . Jiaxing . Jiaxing South Station', flag: 'cn', date: '07.01' },
-          { location: 'Zhejiang . Jiaxing . Jiaxing Central Bus Station', flag: 'cn', date: '07.01' },
+
           { location: 'Zhejiang . Xitang . Jiashan Station', flag: 'cn', date: '07.01' },
           { location: 'Zhejiang . Xitang . Jiashan South Station', flag: 'cn', date: '07.01' },
           { location: 'Zhejiang . Xitang . Xitang Bus Station', flag: 'cn', date: '07.01' },
