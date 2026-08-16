@@ -27,6 +27,7 @@ var linksData = [
   { name: 'hi lyc', url: 'http://hi.lyc.la', avatar: '/images/logo.png', desc: 'hi.lyc.la website' },
   { name: 'ilive lyc', url: 'http://ilive.lyc.la', avatar: '/images/logo.png', desc: 'Concert Footprints' },
   { name: 'iblog lyc', url: 'http://b.lyc.la', avatar: '/images/logo.png', desc: 'lyc Blog' },
+  { name: 'imovie lyc', url: 'http://imovie.lyc.la', avatar: '/images/logo.png', desc: 'lyc imovie' },
   { name: 'Github', url: 'http://github.com/layicr', avatar: '/images/links/github.jpg', desc: 'My GitHub' },
   { name: 'Weibo', url: 'http://weibo.com/layicr', avatar: '/images/links/weibo.jpg', desc: 'My Weibo' },
   { name: 'Weixin', url: 'https://mp.weixin.qq.com/s/S1sq45LC_iQuCLYxzoaRkw', avatar: '/images/links/weixin.jpg', desc: 'My WeChat' },

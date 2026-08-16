@@ -25,8 +25,9 @@ lang: zh-CN
 var linksData = [
   { name: 'lyc.la', url: 'http://www.lyc.la', avatar: '/images/logo.png', desc: 'lyc.la网站' },
   { name: 'hi lyc', url: 'http://hi.lyc.la', avatar: '/images/logo.png', desc: 'hi.lyc.la网站' },
-  { name: 'ilive lyc', url: 'http://ilive.lyc.la', avatar: '/images/logo.png', desc: '演唱会足迹' },
   { name: 'iblog lyc', url: 'http://b.lyc.la', avatar: '/images/logo.png', desc: 'lyc 博客' },
+  { name: 'ilive lyc', url: 'http://ilive.lyc.la', avatar: '/images/logo.png', desc: '演唱会足迹' },
+  { name: 'imovie lyc', url: 'http://imovie.lyc.la', avatar: '/images/logo.png', desc: 'lyc 电影电视剧' },
   { name: 'Github', url: 'http://github.com/layicr', avatar: '/images/links/github.jpg', desc: '一个Github' },
   { name: 'Weibo', url: 'http://weibo.com/layicr', avatar: '/images/links/weibo.jpg', desc: '一个微博' },
   { name: 'Weixin', url: 'https://mp.weixin.qq.com/s/S1sq45LC_iQuCLYxzoaRkw', avatar: '/images/links/weixin.jpg', desc: '一个微信' },
