@@ -1,124 +1,74 @@
-# layicr Blog
+# lyc.la Blog
 
-[中文](README.md) | English
+English | [中文](README.md)
 
-Website: [http://b.lyc.la](http://b.lyc.la)
+Personal blog built with Hugo static site generator and hugo-theme-next theme.
 
-Personal blog website built with Hexo + NexT theme.
+- Site: <http://b.lyc.la>
 
 ## Tech Stack
 
-| Component | Version |
-|-----------|---------|
-| Hexo      | 8.1.1   |
-| NexT      | 8.27.0  |
-| Node.js   | 18+     |
-
-## Features
-
-- 📝 Article Management - Markdown support
-- 🏷️ Tag & Category System - Article tagging and categorization
-- 🔍 Site Search - Local search functionality
-- 📡 RSS Subscription - Atom format support
-- 🗺️ SEO Optimization - Sitemap + Baidu Sitemap
-- 🎨 Custom Styling - Customize via `source/_data/styles.styl`
-- 💰 Donation Feature - WeChat/Alipay QR codes
-- 📱 Responsive Design - Mobile-friendly
-- 📊 Data Visualization - Support for flowcharts, sequence diagrams, Mermaid charts
-- 📅 Calendar Feature - Article publication calendar
-- 📄 PDF Preview - PDF file embedding support
-- 📈 Word Count - Article word count and reading time statistics
+- **Hugo**: Static site generator (configured via `hugo.yaml`)
+- **hugo-theme-next**: NexT theme (located at `themes/hugo-theme-next`)
+- Multilingual: Simplified Chinese (default) / English
+- Search: Local search (`/searchindexes.xml`)
+- Analytics: Baidu Analytics
+- Deployment: Vercel
 
 ## Directory Structure
 
 ```
-iblog/
-├── _config.yml          # Hexo main configuration
-├── _config.next.yml     # NexT theme configuration
-├── package.json         # Dependency management
-├── gulpfile.js          # Build optimization
-├── source/              # Source files
-│   ├── _posts/          # Article directory
-│   ├── about/           # About page
-│   ├── about_en/        # About page (English)
-│   ├── links/           # Links page
-│   ├── links_en/        # Links page (English)
-│   ├── ad/              # Advertising page
-│   ├── ad_en/           # Advertising page (English)
-│   ├── yearcity/        # Traveler page
-│   ├── yearcity_en/     # Traveler page (English)
-│   ├── categories/      # Categories page
-│   ├── tags/            # Tags page
-│   ├── 404/             # 404 page
-│   ├── images/          # Image resources
-│   └── _data/           # Custom data
-│       └── styles.styl  # Custom CSS styles
-├── themes/              # Theme directory
-│   └── next/            # NexT theme
-└── scaffolds/           # Article templates
+.
+├── archetypes/         # Article templates (front-matter defaults)
+├── assets/            # Assets (processed by Hugo Pipes)
+├── content/           # Site content
+│   ├── zh-cn/         # Chinese content
+│   └── en/            # English content
+├── data/              # Data files
+├── i18n/              # Internationalization translations
+├── layouts/           # Custom layout overrides
+├── static/            # Static assets (images, CSS, etc., unprocessed)
+├── themes/            # Theme (hugo-theme-next)
+├── public/            # Build output (generated static site)
+├── resources/         # Hugo build cache
+└── hugo.yaml          # Main site configuration
 ```
 
-## Quick Start
+## Requirements
 
-### Install Dependencies
+- Hugo Extended (latest version recommended, theme requires SCSS/PostCSS)
+
+## Local Preview
 
 ```bash
-npm install
+# Start local dev server (default http://localhost:1313)
+hugo server -D
+
+# Build site only (output to public/)
+hugo
 ```
 
-### Local Preview
+## Writing
+
+Create a new post (using default template):
 
 ```bash
-hexo clean
-hexo generate
-hexo server
+# Chinese
+hugo new zh-cn/posts/your-title.md
+
+# English
+hugo new en/posts/your-title.md
 ```
 
-Visit http://localhost:4000
+Front-matter example:
 
-### Create Article
-
-```bash
-hexo new "Article Title"
+```markdown
+---
+title: "Post Title"
+date: 2026-09-03T12:00:00+08:00
+categories: ["Category"]
+tags: ["tag1", "tag2"]
+---
 ```
 
-### Build & Deploy
-
-```bash
-hexo clean
-hexo generate
-hexo deploy
-```
-
-## Configuration
-
-### Main Configuration Files
-
-| File | Description |
-|------|-------------|
-| `_config.yml` | Hexo core configuration (site info, URL, pagination, etc.) |
-| `_config.next.yml` | NexT theme configuration (menu, sidebar, social links, etc.) |
-| `source/_data/styles.styl` | Custom CSS styles |
-
-## Plugin List
-
-| Plugin | Function |
-|--------|----------|
-| hexo-generator-feed | RSS subscription |
-| hexo-generator-sitemap | Sitemap |
-| hexo-generator-baidu-sitemap | Baidu sitemap |
-| hexo-generator-searchdb | Local search |
-| hexo-symbols-count-time | Word count |
-| hexo-neat | Code compression |
-| hexo-filter-flowchart | Flowchart support |
-| hexo-filter-sequence | Sequence diagram support |
-| hexo-filter-mermaid-diagrams | Mermaid chart support |
-| hexo-generator-calendar | Article calendar |
-| hexo-pdf | PDF preview |
-| hexo-word-counter | Word count |
-| hexo-generator-topindex | Top articles |
-| gulp | Build tool |
-| gulp-clean-css | CSS compression |
-| gulp-htmlclean | HTML cleaning |
-| gulp-htmlmin | HTML compression |
-| gulp-uglify | JS compression |
+> URL structure follows the original Hexo format: `/year/month/title/` (see `permalinks` in `hugo.yaml`).

@@ -1,0 +1,133 @@
+{{ define "title" }}
+{{ .Params.Title | default (T .Data.Plural) | default .Data.Plural | dict "Some" | T "AllSome" }} - {{ .Site.Title }}
+{{ end }}
+{{ define "main_inner_class" }}{{.Data.Plural}} posts-expand{{ end }}
+{{ define "main" }}
+<div class="post-block" lang="{{ .Site.LanguageCode }}">
+  <div class="post-header">
+    <h1>
+      {{ if eq .Data.Plural "categories" }}
+        {{ T "CateTitle" }}
+      {{ else if eq .Data.Plural "tags" }}
+        {{ T "TagTitle" }}
+      {{ end }}
+    </h1>
+  </div>
+  <div class="post-body">
+    {{ if eq .Data.Plural "categories" }}
+    <div class="category-all-page">
+      <div class="category-all-title">
+        {{ T "Terms.categories" (.Scratch.Get "catsCount") | safeHTML }}
+      </div>
+      <div class="category-all">
+        {{ $pages := $.Scratch.Get "pages" }}
+        {{ $allDescendantCats := slice }}
+        {{ range $pages }}
+          {{ if .Params.categories }}
+            {{ range $i, $cat := .Params.categories }}
+              {{ if gt $i 0 }}
+                {{ if not (in $allDescendantCats $cat) }}
+                  {{ $allDescendantCats = $allDescendantCats | append $cat }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <ul class="category-list">
+          {{ range .Site.Taxonomies.categories.ByCount }}
+            {{ $primaryCategory := .Page.Title }}
+            {{ if not (in $allDescendantCats $primaryCategory) }}
+              {{ $primaryCount := .Count }}
+              {{ $secondaryCategories := slice }}
+              {{ range where $pages "Params.categories" "intersect" (slice $primaryCategory) }}
+                {{ if eq (index .Params.categories 0) $primaryCategory }}
+                  {{ if isset .Params.categories 1 }}
+                    {{ $sec := index .Params.categories 1 }}
+                    {{ if not (in $secondaryCategories $sec) }}
+                      {{ $secondaryCategories = $secondaryCategories | append $sec }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              <li class="category-list-item">
+                <a class="category-list-link" href="{{ "categories/" | relLangURL }}{{ $primaryCategory | urlize }}/">
+                  {{ $primaryCategory }}
+                  <span class="category-list-count">{{ $primaryCount }}</span>
+                </a>
+                {{ if $secondaryCategories }}
+                <ul class="category-children-list">
+                  {{ range $secondaryCategories }}
+                    {{ $secondaryCategory := . }}
+                    {{ $secondaryCount := 0 }}
+                    {{ range $name, $term := $.Site.Taxonomies.categories }}
+                      {{ if eq $term.Page.Title $secondaryCategory }}
+                        {{ $secondaryCount = $term.Count }}
+                      {{ end }}
+                    {{ end }}
+                    {{ $tertiaryCategories := slice }}
+                    {{ range where $pages "Params.categories" "intersect" (slice $secondaryCategory) }}
+                      {{ if and (eq (index .Params.categories 0) $primaryCategory) (eq (index .Params.categories 1) $secondaryCategory) }}
+                        {{ if isset .Params.categories 2 }}
+                          {{ $ter := index .Params.categories 2 }}
+                          {{ if not (in $tertiaryCategories $ter) }}
+                            {{ $tertiaryCategories = $tertiaryCategories | append $ter }}
+                          {{ end }}
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                    <li class="category-children-list-item">
+                      <a class="category-list-link" href="{{ "categories/" | relLangURL }}{{ $secondaryCategory | urlize }}/">
+                        {{ $secondaryCategory }}
+                        <span class="category-list-count">{{ $secondaryCount }}</span>
+                      </a>
+                      {{ if $tertiaryCategories }}
+                      <ul class="category-children-list">
+                        {{ range $tertiaryCategories }}
+                          {{ $tertiaryCategory := . }}
+                          {{ $tertiaryCount := 0 }}
+                          {{ range $name, $term := $.Site.Taxonomies.categories }}
+                            {{ if eq $term.Page.Title $tertiaryCategory }}
+                              {{ $tertiaryCount = $term.Count }}
+                            {{ end }}
+                          {{ end }}
+                          <li class="category-children-list-item">
+                            <a class="category-list-link" href="{{ "categories/" | relLangURL }}{{ $tertiaryCategory | urlize }}/">
+                              {{ $tertiaryCategory }}
+                              <span class="category-list-count">{{ $tertiaryCount }}</span>
+                            </a>
+                          </li>
+                        {{ end }}
+                      </ul>
+                      {{ end }}
+                    </li>
+                  {{ end }}
+                </ul>
+                {{ end }}
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    {{ end }}
+    {{ if eq .Data.Plural "tags" }}
+      {{ $tags := .Site.Taxonomies.tags }}
+      <div class="tag-cloud">
+        <div class="tag-cloud-title">
+          {{ T "Terms.tags" (.Scratch.Get "tagsCount") | safeHTML }}
+        </div>
+        <div class="tag-cloud-tags">
+          {{ $randNums := (seq 10) }}
+          {{- range $name, $items := $tags }}
+          <a class="tag-cloud-{{ index (shuffle $randNums) 0 }}" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}/">{{ .Page.Title }}
+            <span class="tag-list-count">
+              <sup>({{ len $items }})</sup>
+            </span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+</div>
+</div>
+{{ end }}

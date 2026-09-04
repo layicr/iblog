@@ -1,0 +1,129 @@
+/** Custom style defined file **/
+
+.mydefined {
+  font-size: 0.65em;
+  color: #ed6c24;
+}
+
+.custom-footer {
+  color: #ed6c24;
+}
+
+.custom-head5 {
+  font-size: 1.2em;
+  color: #ed6c24;
+  font-weight: bold;
+}
+
+/* 让侧边栏内容超出视口时可滚动，避免底部"网站资讯"卡片被截断 */
+.sidebar {
+  overflow-y: auto;
+}
+
+/* 友情链接页面样式 */
+.links-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.links-intro {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px 20px;
+}
+.links-intro p {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #333;
+}
+.links-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.link-item {
+  text-decoration: none;
+  color: inherit;
+}
+.link-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+.link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-color: #667eea;
+}
+.link-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid #f5f5f5;
+  transition: all 0.4s ease;
+}
+.link-card:hover .link-avatar {
+  transform: rotate(360deg) scale(1.1);
+  border-color: #667eea;
+}
+.link-info {
+  flex: 1;
+  min-width: 0;
+}
+.link-title {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.link-description {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 768px) {
+  .links-list {
+    grid-template-columns: 1fr;
+  }
+  .links-intro p {
+    font-size: 1.2rem;
+  }
+  .link-card {
+    padding: 20px 15px;
+  }
+  .link-avatar {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* 头部 logo：去掉黑色背景，标题改为黑色大号 */
+.brand {
+  background: transparent;
+}
+
+.logo-line {
+  background: transparent;
+}
+
+.site-title {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: bold;
+}

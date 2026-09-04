@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+# Hugo 构建锁文件（临时生成）
+.hugo_build.lock
+public/
+.deploy*/
+dst/
+
+.trae/
+.codebuddy/
+
+resources/
+
+*.py
+
+
+_build_test/
