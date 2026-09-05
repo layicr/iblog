@@ -347,8 +347,8 @@ params:
   # Key is the link label order.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   socials: 
-     social1: Travel || /yearcity/ || fa fa-globe
-     social2: RSS || /rss.xml || fa fa-rss
+     social1: Travel || /zh-cn/yearcity/ || fa fa-globe
+     social2: RSS || /zh-cn/rss.xml || fa fa-rss
 
   # 社交链接图标设置
   # Social icon setting
@@ -399,7 +399,7 @@ params:
     enable: true
     # 自动设置列表的数字
     # Automatically add list number to toc.
-    number: true
+    number: false
     # 开启自动换行显示
     # If true, all words will placed on next lines 
     # if header width longer then sidebar width.
