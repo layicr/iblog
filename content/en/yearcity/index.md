@@ -296,6 +296,9 @@ comments: false
       {
         year: '2026',
         details: [
+          { location: 'Guangdong . Guangzhou . F✦FOREVER Concert', flag: 'cn', date: '10.01' },
+          { location: 'Guangdong . Shenzhen . Jordan Chan Concert', flag: 'cn', date: '10.01' },
+          { location: 'Guangxi . Nanning . Super Tide Sound Storm', flag: 'cn', date: '10.01' },
           { location: 'Guangdong . Shenzhen . Power Station Concert', flag: 'cn', date: '07.01' },
           { location: 'Guangdong . Dongguan', flag: 'cn', date: '06.01' },
           { location: 'Guangdong . Dongguan . Justin Lo Concert', flag: 'cn', date: '06.01' },
@@ -322,7 +325,6 @@ comments: false
           { location: 'Guangxi . Liuzhou', flag: 'cn', date: '06.01' },
           { location: 'Guangxi . Liujiang', flag: 'cn', date: '06.01' },
           { location: 'Guangxi . Liuzhou . Liuzhou Station', flag: 'cn', date: '06.01' },
-          { location: 'Guangxi . Liuzhou . Liuzhou Bus Terminal', flag: 'cn', date: '06.01' },
           { location: 'Guangdong . Shenzhen', flag: 'cn', date: '05.01' },
           { location: 'Guangdong . Shenzhen . Stefanie Sun Concert', flag: 'cn', date: '05.01' },
           { location: 'Guangdong . Shenzhen . Shenzhen Station', flag: 'cn', date: '05.01' },
@@ -362,10 +364,7 @@ comments: false
           { location: 'Fujian . Fuzhou', flag: 'cn', date: '12.01' },
           { location: 'Fujian . Fuzhou Changle International Airport', flag: 'cn', date: '12.01' },
           { location: 'Fujian . Fuzhou . Fuzhou Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Fuzhou . Fuzhou South Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Fuzhou . North Fuzhou Bus Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Fuzhou . South Fuzhou Bus Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Fuzhou . West Passenger Transport Station', flag: 'cn', date: '12.01' }
+          { location: 'Fujian . Fuzhou . Fuzhou South Station', flag: 'cn', date: '12.01' }
         ]
       },
       {
@@ -374,8 +373,7 @@ comments: false
           { location: 'Zhejiang . Ningbo', flag: 'cn', date: '12.01' },
           { location: 'Zhejiang . Ningbo . Ningbo Station', flag: 'cn', date: '12.01' },
           { location: 'Fujian . Jinjiang', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Jinjiang . Jinjiang Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Jinjiang . Jinjiang Bus Station', flag: 'cn', date: '12.01' }
+          { location: 'Fujian . Jinjiang . Jinjiang Station', flag: 'cn', date: '12.01' }
         ]
       },
       {
@@ -399,7 +397,6 @@ comments: false
            { location: 'Shanxi . Taiyuan Wusu International Airport', flag: 'cn', date: '12.01' },
            { location: 'Shanxi . Taiyuan . Taiyuan Station', flag: 'cn', date: '12.01' },
            { location: 'Shanxi . Taiyuan . Taiyuan South Station', flag: 'cn', date: '12.01' },
-           { location: 'Shanxi . Taiyuan . Taiyuan Bus Station', flag: 'cn', date: '12.01' },
            { location: 'Anhui . Hefei', flag: 'cn', date: '01.01' },
            { location: 'Anhui . Hefei Xinqiao International Airport', flag: 'cn', date: '01.01' },
            { location: 'Anhui . Hefei . Hefei Station', flag: 'cn', date: '01.01' },
@@ -466,8 +463,6 @@ comments: false
           { location: 'Fujian . Quanzhou Jinjiang Airport', flag: 'cn', date: '12.01' },
           { location: 'Fujian . Quanzhou . Quanzhou Station', flag: 'cn', date: '12.01' },
           { location: 'Fujian . Quanzhou . Quanzhou East Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Quanzhou . Quanzhou Central Bus Station', flag: 'cn', date: '12.01' },
-          { location: 'Fujian . Quanzhou . Quanzhou Bus Station', flag: 'cn', date: '12.01' },
           { location: 'Qinghai . Xining', flag: 'cn', date: '07.01' },
           { location: 'Qinghai . ChakaSaltLake', flag: 'cn', date: '07.01' },
           { location: 'Qinghai . Qinghailake', flag: 'cn', date: '07.01' },
@@ -499,9 +494,7 @@ comments: false
 
           { location: 'Zhejiang . Xitang . Jiashan Station', flag: 'cn', date: '07.01' },
           { location: 'Zhejiang . Xitang . Jiashan South Station', flag: 'cn', date: '07.01' },
-          { location: 'Zhejiang . Xitang . Xitang Bus Station', flag: 'cn', date: '07.01' },
           { location: 'Macao', flag: 'mo', date: '06.01' },
-          { location: 'Macao . Border Gate Terminal', flag: 'mo', date: '06.01' },
           { location: 'Hunan . Changsha', flag: 'cn', date: '03.01' },
           { location: 'Hunan . Zhangjiajie', flag: 'cn', date: '03.01' },
           { location: 'Hunan . Fenghuang Ancient Town', flag: 'cn', date: '03.01' },
@@ -515,18 +508,14 @@ comments: false
           { location: 'Sichuan . Chengdu Shuangliu International Airport', flag: 'cn', date: '10.01' }, 
           { location: 'Sichuan . Chengdu . Chengdu Station', flag: 'cn', date: '10.01' },
           { location: 'Sichuan . Chengdu . Chengdu East Station', flag: 'cn', date: '10.01' },
-          { location: 'Sichuan . Chengdu . Chadianzi Bus Terminal', flag: 'cn', date: '10.01' },
           { location: 'Henan . Dengfeng', flag: 'cn', date: '10.01' },
           { location: 'Henan . Shaolin Temple', flag: 'cn', date: '10.01' },
           { location: 'Henan . Dengfeng . Zhengzhou Station', flag: 'cn', date: '10.01' },
           { location: 'Henan . Dengfeng . Zhengzhou East Station', flag: 'cn', date: '10.01' },
-          { location: 'Henan . Dengfeng . Dengfeng Bus Station', flag: 'cn', date: '10.01' },
           { location: 'Henan . Luoyang', flag: 'cn', date: '10.01' },
           { location: 'Henan . Luoyang . Luoyang Station', flag: 'cn', date: '10.01' },
-          { location: 'Henan . Luoyang . Luoyang Bus Station', flag: 'cn', date: '10.01' },
           { location: 'Sichuan . Mianyang', flag: 'cn', date: '10.01' },
           { location: 'Sichuan . Mianyang . Mianyang Station', flag: 'cn', date: '10.01' },
-          { location: 'Sichuan . Mianyang . Mianyang Bus Station', flag: 'cn', date: '10.01' },
           { location: 'Sichuan . Jiangyou', flag: 'cn', date: '10.01' },
           { location: 'Sichuan . Jiangyou . Jiangyou Station', flag: 'cn', date: '10.01' },
           { location: 'Sichuan . Jiangyou . Jiangyou North Station', flag: 'cn', date: '10.01' },
@@ -556,7 +545,6 @@ comments: false
           { location: 'Jiangsu . Kunshan', flag: 'cn', date: '01.01' },
           { location: 'Jiangsu . Kunshan . Kunshan Station', flag: 'cn', date: '01.01' },
           { location: 'Jiangsu . Kunshan . Kunshan South Station', flag: 'cn', date: '01.01' },
-          { location: 'Jiangsu . Kunshan . Kunshan Bus Terminal', flag: 'cn', date: '01.01' },
           { location: 'Jiangsu . Tongli', flag: 'cn', date: '01.01' },
           { location: 'Jiangsu . Zhouzhuang', flag: 'cn', date: '01.01' },
           { location: 'Jiangsu . Luzhi', flag: 'cn', date: '01.01' },
@@ -572,8 +560,6 @@ comments: false
           { location: 'Henan . Xuchang', flag: 'cn', date: '10.01' },
           { location: 'Henan . Xuchang . Xuchang Station', flag: 'cn', date: '10.01' },
           { location: 'Henan . Xuchang . Xuchang East Station', flag: 'cn', date: '10.01' },
-          { location: 'Henan . Xuchang . Xuchang Bus Station', flag: 'cn', date: '10.01' },
-          { location: 'Henan . Xuchang . Xuchang East Bus Station', flag: 'cn', date: '10.01' },
           { location: 'Shanxi . Xinzhou', flag: 'cn', date: '09.01' },
           { location: 'Shanxi . Wutai Mountain', flag: 'cn', date: '09.01' },
           { location: 'Shanxi . Datong', flag: 'cn', date: '09.01' },
@@ -584,8 +570,6 @@ comments: false
           { location: 'Fujian . Xiamen Gaoqi International Airport', flag: 'cn', date: '08.01' },
           { location: 'Fujian . Xiamen . Xiamen Station', flag: 'cn', date: '08.01' },
           { location: 'Fujian . Xiamen . Xiamen North Station', flag: 'cn', date: '08.01' },
-          { location: 'Fujian . Xiamen . Wucun Bus Station', flag: 'cn', date: '08.01' },
-          { location: 'Fujian . Xiamen . Fanghu Passenger Transport Center', flag: 'cn', date: '08.01' },
           { location: 'Hebei . Tangshan', flag: 'cn', date: '08.01' },
           { location: 'Hebei . Tangshan . Tangshan Station', flag: 'cn', date: '08.01' },
           { location: 'Hebei . Tangshan . Tangshan North Station', flag: 'cn', date: '08.01' },
@@ -596,8 +580,7 @@ comments: false
           { location: 'Liaoning . Shenyang . Shenyang Station', flag: 'cn', date: '04.01' },
           { location: 'Liaoning . Shenyang . Shenyang North Station', flag: 'cn', date: '04.01' },
           { location: 'Liaoning . Benxi', flag: 'cn', date: '04.01' },
-          { location: 'Liaoning . Benxi . Benxi Station', flag: 'cn', date: '04.01' },
-          { location: 'Liaoning . Benxi . Benxi Long-Distance Bus Station', flag: 'cn', date: '04.01' }
+          { location: 'Liaoning . Benxi . Benxi Station', flag: 'cn', date: '04.01' }
         ]
       },
       {
@@ -618,14 +601,10 @@ comments: false
           { location: 'Shanghai . Shanghai Station', flag: 'cn', date: '06.01' },
           { location: 'Shanghai . Shanghai Hongqiao Station', flag: 'cn', date: '06.01' },
           { location: 'Shanghai . Shanghai South Station', flag: 'cn', date: '06.01' },
-          { location: 'Shanghai . Shanghai Long-Distance Bus General Terminal', flag: 'cn', date: '06.01' },
-          { location: 'Shanghai . Shanghai South Long-Distance Bus Station', flag: 'cn', date: '06.01' },
           { location: 'Guangdong . Zhuhai', flag: 'cn', date: '01.01' },
           { location: 'Guangdong . Zhuhai Sanzao International Airport', flag: 'cn', date: '01.01' },
           { location: 'Guangdong . Zhuhai . Zhuhai Station', flag: 'cn', date: '01.01' },
           { location: 'Guangdong . Zhuhai . Zhuhai North Station', flag: 'cn', date: '01.01' },
-          { location: 'Guangdong . Zhuhai . Zhuhai Long-Distance Bus Station', flag: 'cn', date: '01.01' },
-          { location: 'Guangdong . Zhuhai . Zhuhai Gongbei Bus Station', flag: 'cn', date: '01.01' },
           { location: 'Guangxi . Guilin', flag: 'cn', date: '01.01' },
           { location: 'Guangxi . Guilin Liangjiang International Airport', flag: 'cn', date: '01.01' },
           { location: 'Guangxi . Guilin . Guilin Station', flag: 'cn', date: '01.01' }
@@ -649,7 +628,6 @@ comments: false
           { location: 'Jiangsu . Nanjing', flag: 'cn', date: '05.01' },
           { location: 'Jiangsu . Nanjing . Nanjing Station', flag: 'cn', date: '05.01' },
           { location: 'Jiangsu . Nanjing . Nanjing South Station', flag: 'cn', date: '05.01' },
-          { location: 'Jiangsu . Nanjing . Nanjing Bus Terminal', flag: 'cn', date: '05.01' },
           { location: 'Hebei . Baoding', flag: 'cn', date: '04.01' },
           { location: 'Shandong . Binzhou', flag: 'cn', date: '03.01' },
           { location: 'Shandong . Binzhou . Binzhou Station', flag: 'cn', date: '03.01' },
@@ -664,9 +642,7 @@ comments: false
           { location: 'Beijing . The Palace Museum', flag: 'cn', date: '12.01' },
           { location: 'Beijing . Beijing Station', flag: 'cn', date: '12.01' },
           { location: 'Beijing . Beijing South Station', flag: 'cn', date: '12.01' },
-          { location: 'Beijing . Beijing West Station', flag: 'cn', date: '12.01' },
-          { location: 'Beijing . Yongdingmen Long-Distance Bus Station', flag: 'cn', date: '12.01' },
-          { location: 'Beijing . Sihui Long-Distance Bus Station', flag: 'cn', date: '12.01' }
+          { location: 'Beijing . Beijing West Station', flag: 'cn', date: '12.01' }
         ]
       }
   ];
@@ -802,4 +778,3 @@ comments: false
   }
 })();
 </script>
-

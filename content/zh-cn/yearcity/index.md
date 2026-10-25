@@ -296,6 +296,9 @@ comments: false
     {
         year: '2026',
         details: [
+          { location: '广东 . 广州 . F✦FOREVER演唱会', flag: 'cn', date: '10.01' },
+          { location: '广东 . 深圳 . 陈小春演唱会', flag: 'cn', date: '10.01' },
+          { location: '广西 . 南宁 . 潮音风暴超级', flag: 'cn', date: '10.01' },
           { location: '广东 . 深圳 . 动力火车演唱会', flag: 'cn', date: '07.01' },
           { location: '广东 . 东莞', flag: 'cn', date: '06.01' },
           { location: '广东 . 东莞 . 侧田演唱会', flag: 'cn', date: '06.01' },
