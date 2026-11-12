@@ -10,7 +10,7 @@ categories: [Walker, Concert]
 
 ---
 
-![](http://img.lyc.la/wubai/20231013.jpg)
+![](http://img.lyc.la/wubai20260109/20231013.jpg)
 
 
 That year working on a project, busy every day with a two-point routine,

@@ -10,12 +10,12 @@ categories: [行者时代,演唱会]
 
 ---
 
-![](http://img.lyc.la/richiejen/4039.jpg)
-![](http://img.lyc.la/richiejen/4040.jpg)
-![](http://img.lyc.la/richiejen/4041.jpg)
-![](http://img.lyc.la/richiejen/4042.jpg)
-![](http://img.lyc.la/richiejen/4043.jpg)
-![](http://img.lyc.la/richiejen/4044.jpg)
+![](http://img.lyc.la/richiejen20241208/4039.jpg)
+![](http://img.lyc.la/richiejen20241208/4040.jpg)
+![](http://img.lyc.la/richiejen20241208/4041.jpg)
+![](http://img.lyc.la/richiejen20241208/4042.jpg)
+![](http://img.lyc.la/richiejen20241208/4043.jpg)
+![](http://img.lyc.la/richiejen20241208/4044.jpg)
 
 
 小齐哥的歌一响起，  

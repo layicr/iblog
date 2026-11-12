@@ -10,15 +10,15 @@ categories: [Walker, Concert]
 
 ---
 
-![](http://img.lyc.la/gem/20251130.jpg)
-![](http://img.lyc.la/gem/4130.jpg)
-![](http://img.lyc.la/gem/4131.jpg)
-![](http://img.lyc.la/gem/4132.jpg)
-![](http://img.lyc.la/gem/4133.jpg)
-![](http://img.lyc.la/gem/4134.jpg)
-![](http://img.lyc.la/gem/4135.jpg)
-![](http://img.lyc.la/gem/4136.jpg)
-![](http://img.lyc.la/gem/4137.jpg)
+![](http://img.lyc.la/gem20251130/20251130.jpg)
+![](http://img.lyc.la/gem20251130/4130.jpg)
+![](http://img.lyc.la/gem20251130/4131.jpg)
+![](http://img.lyc.la/gem20251130/4132.jpg)
+![](http://img.lyc.la/gem20251130/4133.jpg)
+![](http://img.lyc.la/gem20251130/4134.jpg)
+![](http://img.lyc.la/gem20251130/4135.jpg)
+![](http://img.lyc.la/gem20251130/4136.jpg)
+![](http://img.lyc.la/gem20251130/4137.jpg)
 
 
 When familiar melodies like "Foam", "Tornado", and "Only" slowly started playing,

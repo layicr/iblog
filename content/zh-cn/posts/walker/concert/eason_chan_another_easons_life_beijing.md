@@ -10,19 +10,19 @@ categories: [行者时代,演唱会]
 
 ---
 
-![](http://img.lyc.la/easonchan/20161021.jpg)
-![](http://img.lyc.la/easonchan/2215.jpg)
-![](http://img.lyc.la/easonchan/2216.jpg)
-![](http://img.lyc.la/easonchan/2217.jpg)
-![](http://img.lyc.la/easonchan/2218.jpg)
-![](http://img.lyc.la/easonchan/2219.jpg)
-![](http://img.lyc.la/easonchan/2221.jpg)
-![](http://img.lyc.la/easonchan/2223.jpg)
-![](http://img.lyc.la/easonchan/2224.jpg)
-![](http://img.lyc.la/easonchan/2226.jpg)
-![](http://img.lyc.la/easonchan/2228.jpg)
-![](http://img.lyc.la/easonchan/2230.jpg)
-![](http://img.lyc.la/easonchan/2233.jpg)
+![](http://img.lyc.la/easonchan20161021/20161021.jpg)
+![](http://img.lyc.la/easonchan20161021/2215.jpg)
+![](http://img.lyc.la/easonchan20161021/2216.jpg)
+![](http://img.lyc.la/easonchan20161021/2217.jpg)
+![](http://img.lyc.la/easonchan20161021/2218.jpg)
+![](http://img.lyc.la/easonchan20161021/2219.jpg)
+![](http://img.lyc.la/easonchan20161021/2221.jpg)
+![](http://img.lyc.la/easonchan20161021/2223.jpg)
+![](http://img.lyc.la/easonchan20161021/2224.jpg)
+![](http://img.lyc.la/easonchan20161021/2226.jpg)
+![](http://img.lyc.la/easonchan20161021/2228.jpg)
+![](http://img.lyc.la/easonchan20161021/2230.jpg)
+![](http://img.lyc.la/easonchan20161021/2233.jpg)
 
 
 夏末秋初的北京，  

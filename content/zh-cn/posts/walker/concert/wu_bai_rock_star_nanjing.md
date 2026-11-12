@@ -10,7 +10,7 @@ categories: [行者时代,演唱会]
 
 ---
 
-![](http://img.lyc.la/wubai/20231013.jpg)
+![](http://img.lyc.la/wubai20260109/20231013.jpg)
 
 
 那年做项目，每天忙得两点一线，  

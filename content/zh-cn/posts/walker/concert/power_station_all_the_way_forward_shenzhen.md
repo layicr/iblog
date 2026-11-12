@@ -10,16 +10,16 @@ categories: [行者时代,演唱会]
 
 ---
 
-![](http://img.lyc.la/powerstation/20260704.jpg)
-![](http://img.lyc.la/powerstation/3900.jpg)
-![](http://img.lyc.la/powerstation/3902.jpg)
-![](http://img.lyc.la/powerstation/3904.jpg)
-![](http://img.lyc.la/powerstation/3905.jpg)
-![](http://img.lyc.la/powerstation/3906.jpg)
-![](http://img.lyc.la/powerstation/3907.jpg)
-![](http://img.lyc.la/powerstation/3908.jpg)
-![](http://img.lyc.la/powerstation/3909.jpg)
-![](http://img.lyc.la/powerstation/3910.jpg)
+![](http://img.lyc.la/powerstation20260704/20260704.jpg)
+![](http://img.lyc.la/powerstation20260704/3900.jpg)
+![](http://img.lyc.la/powerstation20260704/3902.jpg)
+![](http://img.lyc.la/powerstation20260704/3904.jpg)
+![](http://img.lyc.la/powerstation20260704/3905.jpg)
+![](http://img.lyc.la/powerstation20260704/3906.jpg)
+![](http://img.lyc.la/powerstation20260704/3907.jpg)
+![](http://img.lyc.la/powerstation20260704/3908.jpg)
+![](http://img.lyc.la/powerstation20260704/3909.jpg)
+![](http://img.lyc.la/powerstation20260704/3910.jpg)
 
 
 深圳夏夜，被动力火车的摇滚能量点燃。 

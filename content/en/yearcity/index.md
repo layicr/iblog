@@ -296,6 +296,8 @@ comments: false
       {
         year: '2026',
         details: [
+          { location: 'Guangdong . Guangzhou . 5566 Concert', flag: 'cn', date: '10.01' },
+          { location: 'Guangxi . Nanning . Vae Concert', flag: 'cn', date: '10.01' },
           { location: 'Guangdong . Guangzhou . F✦FOREVER Concert', flag: 'cn', date: '10.01' },
           { location: 'Guangdong . Shenzhen . Jordan Chan Concert', flag: 'cn', date: '10.01' },
           { location: 'Guangxi . Nanning . Super Tide Sound Storm', flag: 'cn', date: '10.01' },

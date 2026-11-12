@@ -10,18 +10,18 @@ categories: [行者时代,演唱会]
 
 ---
 
-![](http://img.lyc.la/jolincai/20260503.jpg)
-![](http://img.lyc.la/jolincai/3990.jpg)
-![](http://img.lyc.la/jolincai/3991.jpg)
-![](http://img.lyc.la/jolincai/3992.jpg)
-![](http://img.lyc.la/jolincai/3993.jpg)
-![](http://img.lyc.la/jolincai/3994.jpg)
-![](http://img.lyc.la/jolincai/3995.jpg)
-![](http://img.lyc.la/jolincai/3996.jpg)
-![](http://img.lyc.la/jolincai/3997.jpg)
-![](http://img.lyc.la/jolincai/3998.jpg)
-![](http://img.lyc.la/jolincai/3999.jpg)
-![](http://img.lyc.la/jolincai/3989.jpg)
+![](http://img.lyc.la/jolincai20260503/20260503.jpg)
+![](http://img.lyc.la/jolincai20260503/3990.jpg)
+![](http://img.lyc.la/jolincai20260503/3991.jpg)
+![](http://img.lyc.la/jolincai20260503/3992.jpg)
+![](http://img.lyc.la/jolincai20260503/3993.jpg)
+![](http://img.lyc.la/jolincai20260503/3994.jpg)
+![](http://img.lyc.la/jolincai20260503/3995.jpg)
+![](http://img.lyc.la/jolincai20260503/3996.jpg)
+![](http://img.lyc.la/jolincai20260503/3997.jpg)
+![](http://img.lyc.la/jolincai20260503/3998.jpg)
+![](http://img.lyc.la/jolincai20260503/3999.jpg)
+![](http://img.lyc.la/jolincai20260503/3989.jpg)
 
 
 蔡依林“PLEASURE”世界巡演南宁站呈现了一场颠覆传统的演出，

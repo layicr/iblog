@@ -10,16 +10,16 @@ categories: [Walker, Concert]
 
 ---
 
-![](http://img.lyc.la/stefaniesun/20250518.jpg)
-![](http://img.lyc.la/stefaniesun/4091.jpg)
-![](http://img.lyc.la/stefaniesun/4092.jpg)
-![](http://img.lyc.la/stefaniesun/4093.jpg)
-![](http://img.lyc.la/stefaniesun/4094.jpg)
-![](http://img.lyc.la/stefaniesun/4095.jpg)
-![](http://img.lyc.la/stefaniesun/4096.jpg)
-![](http://img.lyc.la/stefaniesun/4097.jpg)
-![](http://img.lyc.la/stefaniesun/4098.jpg)
-![](http://img.lyc.la/stefaniesun/4099.jpg)
+![](http://img.lyc.la/stefaniesun20250518/20250518.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4091.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4092.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4093.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4094.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4095.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4096.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4097.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4098.jpg)
+![](http://img.lyc.la/stefaniesun20250518/4099.jpg)
 
 
 When the intro to "What I Miss" started playing in the night,

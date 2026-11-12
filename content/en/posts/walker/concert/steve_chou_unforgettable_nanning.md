@@ -10,17 +10,17 @@ categories: [Walker, Concert]
 
 ---
 
-![](http://img.lyc.la/stevechou/20251115.jpg)
-![](http://img.lyc.la/stevechou/4701.jpg)
-![](http://img.lyc.la/stevechou/4702.jpg)
-![](http://img.lyc.la/stevechou/4703.jpg)
-![](http://img.lyc.la/stevechou/4704.jpg)
-![](http://img.lyc.la/stevechou/4705.jpg)
-![](http://img.lyc.la/stevechou/4706.jpg)
-![](http://img.lyc.la/stevechou/4707.jpg)
-![](http://img.lyc.la/stevechou/4708.jpg)
-![](http://img.lyc.la/stevechou/4709.jpg)
-![](http://img.lyc.la/stevechou/4710.jpg)
+![](http://img.lyc.la/stevechou20251115/20251115.jpg)
+![](http://img.lyc.la/stevechou20251115/4701.jpg)
+![](http://img.lyc.la/stevechou20251115/4702.jpg)
+![](http://img.lyc.la/stevechou20251115/4703.jpg)
+![](http://img.lyc.la/stevechou20251115/4704.jpg)
+![](http://img.lyc.la/stevechou20251115/4705.jpg)
+![](http://img.lyc.la/stevechou20251115/4706.jpg)
+![](http://img.lyc.la/stevechou20251115/4707.jpg)
+![](http://img.lyc.la/stevechou20251115/4708.jpg)
+![](http://img.lyc.la/stevechou20251115/4709.jpg)
+![](http://img.lyc.la/stevechou20251115/4710.jpg)
 
 
 When the walking CD sounded live,
